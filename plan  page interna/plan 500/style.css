@@ -1,0 +1,101 @@
+/*fuente raiz: 10px*/
+:root {
+    --light-green: #8CBF4C;
+    --gray-text: #6D6D6D;
+    --light-gray: #F2F2F2;
+    --dark-gray: #3E3E3F;    
+}
+body{
+	font-family: 'Fira Sans', sans-serif;
+	color: var(--gray-text) !important;
+	position: relative;
+	padding-top: 5rem;
+}
+button:focus {outline:0 !important;}
+/*------General-----*/
+section.section{
+	padding: 8rem 0;
+}
+.contentSection{
+	width: 90%
+}
+.centrado-porcentual {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.navbar-brand {
+    padding: 6px 15px;
+}
+/*------Banner name plan-----*/
+.bannerNamePlan{
+	background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    position: relative;
+}
+.bannerNamePlan p{
+	color: #fff;
+	font-weight: 600;
+	font-size: 3em
+}
+.textInfoPlan{
+	margin: 0 0 6rem 0;
+}
+.planFeature {
+    margin-bottom: 4rem;
+}
+.contentPricePlan {
+    background-color: var(--light-gray);
+    border-radius: 1rem;
+    padding: 1rem 3rem 2rem 3rem;
+    box-shadow: 3px 3px 5px #58585878;
+}
+.addCart{
+	background-color: var(--light-green);
+    border-color: var(--light-green);
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    color: #fff;
+    margin-top: 2rem;
+}
+.addCart:hover, .addCart:focus {
+    color: #fff !important;
+}
+.namePlan {
+    color: var(--dark-gray);
+    font-weight: 600;
+}
+.pricePlan{
+	font-weight: 600
+}
+ol.breadcrumb li a{
+	color: var(--dark-gray);
+}
+#groupBuy{
+	width: 120px
+}
+.form-control{
+	text-align: center;
+}
+#buttonLess,
+#buttonMore{
+	font-weight: 600;
+    font-size: 2rem;
+    padding: 2px 13px;
+    background-color: #cccbcb
+}
+/*------Footer-----*/
+footer.section{
+	padding: 3rem 0;
+	background-color: #3E3E3F;
+}
+footer .contentSection > p{
+	padding: 1.5rem 0 0 0;
+}
+.copyright{
+	padding: 1.5rem 0 0 0
+}
