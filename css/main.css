@@ -9,7 +9,6 @@ body{
 	color: var(--gray-text) !important;
 	position: relative;
 	font-size: 14px;
-	font-weight: 200;
 }
 button:focus {outline:0 !important;}
 /*----------------------------- PHONE VERSION -----------------------------*/
@@ -32,6 +31,17 @@ section.section{
 .btn.focus, .btn:focus {
     outline: 0;
     box-shadow: none !important;
+}
+a.login {
+    background: var(--light-green);
+    text-transform: uppercase;
+    color: #fff !important;
+    padding: 0.5rem 1.2rem !important;
+    border-radius: 3px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: var(--light-green) !important;
+    font-weight: 600 !important; 
 }
 /*------------- SLIDER -------------*/
 #slider {
