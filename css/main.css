@@ -48,6 +48,10 @@ a.login{
     border-radius: 3px;
     font-size: 0.9rem;
 }
+.navbar-light .navbar-nav .nav-link.active{
+    color: rgb(140, 191, 76)!important;
+    font-weight: 600!important;
+}
 /*------Slider-----*/
 #slider {
     height: 650px !important;
