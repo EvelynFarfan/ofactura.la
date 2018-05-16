@@ -85,6 +85,9 @@ a.login {
 #about>.container>.row>div:nth-child(2)>.row>.col>img{
 	margin-bottom: 1rem;
 }
+#about>.container>.row>div:nth-child(1)>img{
+	margin-bottom: 3rem
+}
 /*------------- HOW WORK-------------*/
 #howWork{
 	background-color: var(--light-gray);
@@ -217,6 +220,9 @@ footer .contentSection > p{
 	}
 	section.section{
 		padding: 5rem 0;
+	}
+	#about>.container>.row>div:nth-child(1)>img{
+		margin-bottom: 3rem
 	}
 	#howWork .row:nth-child(2)>div>p:nth-child(3) {
     width: 100%;
